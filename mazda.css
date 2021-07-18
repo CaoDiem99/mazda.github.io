@@ -1,0 +1,141 @@
+html{
+    background-color: rgb(44, 38, 38);
+    width: 1440px;
+    height: 1000px;
+    
+}
+
+.logo{
+    margin-left: 45px;
+}
+
+.header{
+    height: 200px;
+    position: relative;
+    
+}
+header ul{
+    position: absolute;
+    display: flex;
+    top: 10px;
+    right: 100px;
+    
+    
+}
+header ul li{
+   width: 200px;
+   text-align: center;
+   display: block;
+   list-style: none;
+}
+header ul a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+    
+}
+
+img{
+    position: absolute;
+    display: block;
+    height: 69px;
+    width: 69px;
+    object-fit: cover;
+    top: 10px ;
+    left: 20px;
+}
+
+.grid-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 'description main';
+    column-gap: 55px;
+}
+.main-images{
+    position: relative;
+    height: 706px;
+    margin-top:-20px;
+  
+}
+.left_contents{
+    color: white;
+    width: 423px;
+    height: 706px;
+}
+.title{
+    
+    margin-left: 55px;
+    font-weight: bold;
+    padding-top: 30px;
+    width: 430px;
+    text-align: center;
+    font-size: 22px;
+    
+}
+.contents{
+    margin-top: 55px;
+    margin-left: 55px;
+    width: 423px;
+    height: 236px;
+    line-height: 27px;
+    font-size: 15px;
+    text-align: justify;
+
+}
+.car_img img{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    width: 840px;
+    height: 550px;
+}
+.character{
+    position: absolute;
+    
+    height: 224px;
+    width: 469px;
+    background-color: #532C31;
+    right: 58px;
+    bottom: 0px;
+}
+.character img{
+    position: absolute;
+    top: 19px;
+    left: 51px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.name{
+    position: absolute;
+    top: 24px;
+    left: 170px;
+    color: white;
+    color: white;
+}
+.carrer{
+    position: absolute;
+    top: 48px;
+    left: 170px;
+    color: white;
+    
+}
+.th2{
+    position: absolute;
+    color: white;
+    top: 112px;
+    left: 51px;
+}
+.p2{
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 51px;
+}
+
+
+
